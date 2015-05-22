@@ -1,0 +1,31 @@
+LevelBase
+	has DialogManager
+	tells Player result of conversation
+
+BemusedLevel : public LevelBase
+	sets attributes and gives them to player
+
+EgoLevel : public LevelBase
+
+SurealLevel : public LevelBase
+
+
+DialogManager
+	makes Conversations made of DialogItems
+
+
+CharacterBase
+
+BemusedCharacter :
+
+EgoCharacter :
+
+SurealCharacter :
+
+
+Player
+	has attributes
+	
+
+AttributeBase
+	attribute classes that determine something about the world or the way the player works
